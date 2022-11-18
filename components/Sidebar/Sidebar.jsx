@@ -12,7 +12,7 @@ const Sidebar = () => {
         <div className='h-screen p-3 w-[4.5rem] bg-[#202225]'>
             <FriendsButton />
             <div className='flex flex-col gap-2'>
-            <ServerButton serverName='Parsatopia Server Very nice cool server' />
+            <ServerButton serverName='Parsatopia' />
             <AddServer />
             <ExploreServers />
             <DownloadApps />

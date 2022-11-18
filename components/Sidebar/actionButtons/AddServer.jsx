@@ -8,7 +8,7 @@ const AddServer = () => {
   return (
     <div
       className={`${
-        isActive && "active bg-[#3BA55D]"
+        isActive ? "active bg-[#3BA55D]" : 'bg-[#36393F]'
       } side-icon hover:bg-[#3BA55D] text-white cursor-pointer py-3 px-2.5 w-full duration-200 flex justify-center items-center`}
       onClick={handleClick}
     >

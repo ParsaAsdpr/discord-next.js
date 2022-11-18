@@ -8,7 +8,6 @@ body{
 
 .side-icon{
   border-radius: 100%;
-  background-color: #36393F;
 }
 .side-icon.active{
   border-radius: 1rem;

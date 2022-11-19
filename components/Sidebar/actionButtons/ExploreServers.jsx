@@ -16,7 +16,6 @@ const ExploreServers = () => {
         <svg
           aria-hidden="true"
           role="img"
-          class=""
           width="24"
           height="24"
           viewBox="0 0 24 24"

@@ -25,3 +25,13 @@ body{
 .side-icon:hover svg{
   fill: #fff
 }
+
+.dms-button *{
+  color: #a5a5a5;
+}
+.dms-button:hover *{
+  color: #eee;
+}
+.dms-button.active *{
+  color: #eee;
+}

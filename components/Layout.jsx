@@ -13,7 +13,7 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-col justify-between">
+      <div className="flex min-h-screen flex-row">
         <Sidebar />
         <main>{children}</main>
       </div>

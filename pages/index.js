@@ -1,10 +1,11 @@
+import DmsSidebar from '../components/DmsSidebar/DmsSidebar'
 import Layout from '../components/Layout'
 
 export default function Home() {
   return (
     <Layout title='Friends'>
-      <div className='bg-stone-900'>
-
+      <div className='flex flex-row'>
+        <DmsSidebar />
       </div>
     </Layout>
   )

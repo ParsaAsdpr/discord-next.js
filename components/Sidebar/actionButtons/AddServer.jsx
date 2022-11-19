@@ -13,7 +13,7 @@ const AddServer = () => {
       onClick={handleClick}
     >
       <svg
-        class="w-full"
+        className="w-full"
         aria-hidden="true"
         role="img"
         width="24"

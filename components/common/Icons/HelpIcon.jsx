@@ -5,7 +5,6 @@ const HelpIcon = () => {
     <svg
       x="0"
       y="0"
-      class="icon-2xnN2Y"
       aria-hidden="true"
       role="img"
       width="24"

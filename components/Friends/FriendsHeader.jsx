@@ -9,7 +9,7 @@ import RightSide from "./RightSide";
 
 const FriendsHeader = () => {
   return (
-    <div className="w-full py-2.5 px-4 flex flex-row justify-between items-center shadow-[0_1px_0_#202225ee,0_2px_0_#00000001]">
+    <div className="w-full py-2.5 px-4 flex flex-row justify-between items-center shadow-[0_1px_0_#202225ee,0_2px_0_#00000001] ">
       <div className="flex flex-row gap-4">
         <div className="flex flex-row gap-2 items-center pr-4 border-r border-r-stone-300 border-opacity-10">
           <FriendsIcon color="#a5a5a5" />

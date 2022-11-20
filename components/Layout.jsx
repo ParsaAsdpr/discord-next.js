@@ -13,9 +13,9 @@ export default function Layout({ title, children }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-row">
+      <div className="flex min-h-screen flex-row w-full">
         <Sidebar />
-        <main>{children}</main>
+        <main className="w-full">{children}</main>
       </div>
     </>
   );

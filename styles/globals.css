@@ -35,3 +35,10 @@ body{
 .dms-button.active *{
   color: #eee;
 }
+
+.frs svg{
+  color: #a5a5a5;
+}
+.frs:hover svg{
+  color: #eee;
+}

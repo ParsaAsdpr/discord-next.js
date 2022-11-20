@@ -1,17 +1,17 @@
 import React from "react";
 import DmsButton from "./DmsButton";
 import SearchDms from "./SearchDms";
-import FriendsIcon from "../common/FriendsIcon";
-import NitroIcon from "../common/NitroIcon";
+import FriendsIcon from "../common/Icons/FriendsIcon";
+import NitroIcon from "../common/Icons/NitroIcon";
 import { GoPlus } from "react-icons/go";
 import DmContact from "./DmContact";
 
 const DmsSidebar = () => {
   return (
-    <div className="bg-[#2F3136] h-screen w-60">
+    <div className="bg-[#2F3136] h-screen w-[17.5rem]">
       <SearchDms />
       <div className="flex flex-col gap-0.5 p-2">
-        <DmsButton text="Friends" svg={<FriendsIcon />} />
+        <DmsButton text="Friends" svg={<FriendsIcon color={'currentColor'} />} />
         <DmsButton text="Nitro" svg={<NitroIcon />} />
       </div>
 

@@ -9,7 +9,7 @@ const FriendsIcon = ({color}) => {
       height="24"
       viewBox="0 0 24 24"
     >
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <path
           fill={color}
           fillRule="nonzero"

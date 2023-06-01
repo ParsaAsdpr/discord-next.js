@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const FriendsButton = () => {
@@ -7,7 +8,7 @@ const FriendsButton = () => {
   };
   // ${isActive ? 'rounded-2xl bg-[#5865F2]' : 'rounded-full bg-[#36393F]'}
   return (
-    <>
+    <Link href="/">
       <div
         className={`${
           isActive ? "active bg-[#5865F2]" : 'bg-[#36393F]'} side-icon hover:bg-[#5865F2] text-white cursor-pointer py-3.5 px-2.5 w-full duration-200`}
@@ -30,7 +31,7 @@ const FriendsButton = () => {
       <div className="px-2">
         <div className="w-full border-b-2 border-b-[#373A3F] my-2"></div>
       </div>
-    </>
+    </Link>
   );
 };
 
